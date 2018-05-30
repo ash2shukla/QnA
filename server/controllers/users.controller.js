@@ -1,4 +1,4 @@
-const user_models = require('../models/user.model');
+const user_models = require('../models/users.model');
 
 exports.signup = (req, res)=>{
 	var User = new user_models.UserModel();
